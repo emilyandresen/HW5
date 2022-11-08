@@ -1,0 +1,48 @@
+/* 
+Author: Emily Andresen
+Class: CPSC 332
+Assignment: Homework 5 - JavaScript
+Last Modified: 11/07/2022 
+*/
+
+:root {
+    --light-color: lightgreen;
+    --dark-color: midnightblue;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    background: var(--dark-color);
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 10px;
+    padding: 10px;
+    border: 2px dashed var(--dark-color);
+    font-family: Verdana;
+}
+
+div {
+    padding: 5px;
+}
+
+button {
+    height: 30px;
+    background-color: var(--dark-color);
+    color: white;
+    border-radius: 5px;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.halfWidth {
+    width: 49%;    
+}
